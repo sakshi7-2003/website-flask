@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block abc %}
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+      }
+      .container{
+        width:100%;
+        height:auto;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .about{
+        width:100%;
+        height: 600px;
+        background-image: url(https://i.ibb.co/9bZPZgp/dsc4641-copy-880074f1fd6d9422f6c3fded126a54c8.jpg); /*Couldn't link the image so i used linear-gradient background LOL!*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .text{
+        font-size: 30px;
+        color:#fff;
+        font-family: sans-serif;
+        text-shadow: 0px 15px 12px #000;
+      }
+      .line{
+        width:200px;
+        height: 8px;
+        background-color: #17ff8d;
+        display: block;
+        position: relative;
+        border-radius: 5px;
+        left:10%;
+        box-shadow: 0px 15px 12px 0px #000;
+      }
+      .content{
+        width:100%;
+        height:auto;
+        background-color: #17ff8d;
+        font-size: 23px;
+        font-family: audiowide;
+        color:#333;
+        line-height: 30px;
+        text-align: center;
+      }
+      b{
+        font-size: 50px;
+        color:#000;
+        font-weight: 500px;
+      }
+      footer{
+        width:100%;
+        height: auto;
+        background-color: #333;
+        color: #17ff8d;
+        font-size: 23px;
+        text-align: center;
+        line-height: 50px;
+      }
+</style>
+
+<div>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>About-us Page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="about">
+      <div class="text">
+        <h1>About Us</h1>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="content">
+      <p><b>W</b>ild life  refers to undomesticated animal species, but has come to include all organisms that grow or live wild in an area without being introduced by humans.[1] Wildlife was also synonymous to game: those birds and mammals that were hunted for sport. Wildlife can be found in all ecosystems. Deserts, plains, grasslands, woodlands, forests, and other areas, including the most developed urban areas, all have distinct forms of wildlife. While the term in popular culture usually refers to animals that are untouched by human factors, most scientists agree that much wildlife is affected by human activities.[2] Some wildlife threaten human safety, health, property, and quality of life. However, many wild animals, even the dangerous ones, have value to human beings. This value might be economic, educational, or emotional in nature.
+      </p>
+    </div>
+    </div>
+    <footer>Copyright &copy; U Can Code 2023 Home|About us|Services|Contact Us</footer>
+</body>
+</html>
+</div>
+
+{% endblock abc %}
